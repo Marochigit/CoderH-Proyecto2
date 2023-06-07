@@ -1,0 +1,13 @@
+.portada{
+    display: flex;
+    justify-content: center;
+    margin: 115px;
+  }
+  
+  .portada img{
+      box-shadow: -7px 7px 50px yellow;
+  }
+  
+  .portada img:hover{
+      transform: scale(1.1);
+  }

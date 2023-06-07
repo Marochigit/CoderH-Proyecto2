@@ -1,0 +1,36 @@
+header{
+    background-color: black;
+    padding: 10px;
+    box-shadow: -38px 7px 30px yellow;
+}
+
+header nav ul li{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    margin-left: 50px;
+    
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.subtitulos{
+    display: flex;
+    justify-content: space-between; 
+}
+
+a{
+    color: yellow;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+a:hover{
+    background: rgba(255, 241, 89, 0.5);
+    
+}

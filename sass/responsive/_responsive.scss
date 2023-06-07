@@ -1,0 +1,143 @@
+/* index */
+@media(max-width: 600px){
+    .portada img{
+        width: 320px;
+    }
+    header .titulo{
+        font-size: 20px;
+    }
+    header .subtitulos ul li a{
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+    header .subtitulos ul{
+        margin: 0;
+        padding: 0;
+    }
+    footer{
+        padding: 30px;
+        position: relative;
+    }
+    .instagram{
+        text-align: left;
+        margin: 5px;
+
+    }
+    footer .footer-img ul .telefono{
+        font-size: 15px;
+        margin: 0;
+    } 
+    footer .footer-img ul .telefono img{
+        width: 20px;
+        height: 20px;
+        margin: 0;
+        font-size: 15px;
+    }
+    footer .footer-img ul .instagram a{
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    footer .footer-img ul .telefono{
+        width: 140px;
+        height: 40px;
+        
+    }
+    footer .footer-img ul .instagram{
+        width: 140px;
+        height: 40px;
+    }
+    footer .footer-img ul .instagram img{
+        width: 20px;
+        height: 20px;
+    }
+    footer .footer-img{
+        margin: 0;
+    }
+    footer .footer-icon{
+        font-size: 20px;
+    }
+}
+
+/* hamburguesas*/
+@media(max-width: 600px){
+    .elegir{
+        display: block;
+        width: 350px;
+        text-align: center;
+        margin: 0;
+    }
+    .hamburguesa-subtitulo .hambur{
+        text-align: center;
+    }
+
+    .grid{
+        margin: 0;
+    }
+}
+
+   
+/* lomitos */
+@media(max-width: 600px){
+    .contenedor{
+        display: block;
+    }
+    .contenedor .grid-completo{
+        width: 400px;
+        text-align: center;
+
+    }
+    
+    
+}
+
+/*bebidas */ 
+@media(max-width: 600px){
+    .col1{
+        font-size: 30px;
+        margin: 0 0 5px 0;
+    }
+    .col2{
+        font-size: 30px;
+        margin: 0 0 5px 0;
+    }
+    .col3{
+        font-size: 30px;
+        margin: 0 0 5px 0;
+    }
+    .col4{
+        font-size: 30px;
+        margin: 0 0 5px 0;
+    }
+    .col5{
+        font-size: 30px;
+        margin: 0 0 5px 0;
+    }
+    .col6{
+        font-size: 30px;
+        margin: 0 0 5px 0;
+    }
+    .col7{
+        font-size: 30px;
+        margin: 0 0 5px 0;
+    }
+    .col8{
+        font-size: 30px;
+        margin: 0 0 5px 0;
+    }
+
+}
+
+/* delivey */
+@media(max-width: 600px){
+    .pedido h2{
+        font-size: 20px;
+        margin: 40px 0 0 0;
+    }
+
+    .pedido form{
+        width: 350px;
+        height: 200px;
+    }
+}
