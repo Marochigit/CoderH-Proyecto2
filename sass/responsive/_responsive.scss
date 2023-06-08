@@ -82,13 +82,48 @@
 @media(max-width: 600px){
     .contenedor{
         display: block;
-    }
-    .contenedor .grid-completo{
-        width: 400px;
+        width: 300px;
         text-align: center;
-
     }
-    
+    .grid-completo{
+        width: 300px;
+        text-align: center;
+        font-size: 15px;
+        margin: 0;
+    }
+    .caja1{
+        width: 300px;
+    }
+    .caja2{
+        width: 150px;
+    }
+    .caja3{
+        width: 150px;
+    }
+    .caja4{
+        width: 300px;
+    }
+    .xl{
+        width: 300px;
+        text-align: center;
+        font-size: 15px;
+        margin: 0;
+    }
+    .caja5{
+        width: 300px;
+    }
+    .caja6{
+        width: 150px;
+    }
+    .caja7{
+        width: 150px;
+    }
+    .caja8{
+        width: 300px;
+    }
+        
+
+
     
 }
 
