@@ -1,104 +1,84 @@
+$letras-h2: "lemon";
 .bebidas-titulo .titulo{
     font-size: 60px;
-    color: black;
+    color: #000000;
     text-align: center;
     margin: 50px 0 0 0;
+    font-family: $letras-h2;
 }
 .bebidas-titulo{
-    background-image: url("../assets/image/LOGO-COCA.png");
-    
-    
+    background-image: url("../assets/image/LOGO-COCA.png"); 
 }
-.col1{
-    border: 2px solid black;
+@mixin bebidas{
+    border: 2px solid #000000;
     font-size: 40px;
     height: 100px;
     width: 660px;
+}
+.col1{
+    @include bebidas;
     margin-top: 30px;
-    background-image: radial-gradient(ellipse 200px 200px, red,white);
-    color: black;
+    background-image: radial-gradient(ellipse 200px 200px, #ff0000,#ffffff);
+    color: #000000;
     text-align: center;
     margin-bottom: 25px;
     
 }
 
 .col2{
-    border: 2px solid black;
-    font-size: 40px;
-    height: 100px;
-    width: 660px;
+    @include bebidas;
     margin-top: 30px;
-    background-image: radial-gradient(ellipse 200px 200px, red,black);
-    color: white;
+    background-image: radial-gradient(ellipse 200px 200px, #ff0000,#000000);
+    color: #ffffff;
     text-align: center;
-    margin-bottom: 15px;
+    
     
 }
 .col3{
-    border: 2px solid black;
-    font-size: 40px;
-    height: 100px;
-    width: 660px;
-    background-image: radial-gradient(ellipse 200px 200px, red,white);
-    color: black;
+    @include bebidas;
+    background-image: radial-gradient(ellipse 200px 200px, #ff0000,#ffffff);
+    color: #000000;
     text-align: center;
     margin-bottom: 25px;
     
 }
 .col4{
-    border: 2px solid black;
-    font-size: 40px;
-    height: 100px;
-    width: 660px;
-    background-image: radial-gradient(ellipse 200px 200px, aqua,white);
-    color: black;
+    @include bebidas;
+    background-image: radial-gradient(ellipse 200px 200px, #00ffff,#ffffff);
+    color: #000000;
     text-align: center;
-    margin-bottom: 5px;
+    
     
 }
 .col5{
-    border: 2px solid black;
-    font-size: 40px;
-    height: 100px;
-    width: 660px;
-    background-image: radial-gradient(ellipse 200px 200px, #ff6a00,black);
-    color: white;
+    @include bebidas;
+    background-image: radial-gradient(ellipse 200px 200px, #ff6a00,#000000);
+    color: #ffffff;
     text-align: center;
     margin-bottom: 25px;
     
 }
 .col6{
-    border: 2px solid black;
-    font-size: 40px;
-    height: 100px;
-    width: 660px;
-    background-image: radial-gradient(ellipse 200px 200px, green,yellow);
-    color: black;
+    @include bebidas;
+    background-image: radial-gradient(ellipse 200px 200px, #008000,#ffff00);
+    color: #000000;
     text-align: center;
-    margin-bottom: 5px;
+    
    
 }
 .col7{
-    border: 2px solid black;
-    font-size: 40px;
-    height: 100px;
-    width: 660px;
-    background-image: radial-gradient(ellipse 200px 200px, gold,black);
-    color: white;
+    @include bebidas;
+    background-image: radial-gradient(ellipse 200px 200px, #ffd700,#000000);
+    color: #ffffff;
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     
 }
 .col8{
-    border: 2px solid black;
-    font-size: 40px;
-    height: 100px;
-    width: 660px;
-    background-image: radial-gradient(ellipse 200px 200px, red,green);
-    color: black;
+    @include bebidas;
+    background-image: radial-gradient(ellipse 200px 200px, #ff0000,#008000);
+    color: #000000;
     text-align: center;
-    margin-bottom: 5px;
-    
 }
 
 .col1:hover{

@@ -16,4 +16,13 @@
 
 @import"./responsive/responsive";
 
+@font-face {
+    font-family: "lemon";
+    src: url(../assets/Letras/LEMONMILK-Regular.otf);
+}
+$letras-h2: "lemon";
 
+//mixin en lomitos
+//mixin en bebidas
+//anidacion en hamburguesas y lomitos
+//cada h2 tiene la variacion de la letra

@@ -1,8 +1,11 @@
+$letras-h2: "lemon";
+
 .hamburguesa-subtitulo .hambur{
     font-size: 50px;
-    color: white;
+    color: #ffffff;
     text-align: center;
     margin: 50px 0 0 0;
+    font-family: $letras-h2;
 }
 .hamburguesa-subtitulo{
     background-image: url("../assets/image/hamburguesa.png");
@@ -13,7 +16,7 @@
     justify-content: space-around;
 }
 .armar{
-    color: white;
+    color: #ffffff;
 }
 
 
@@ -21,27 +24,28 @@
     display: grid;
     grid-template-columns: auto auto;
     width: auto;
-    background-color: gray;
     margin: 10px;
     padding: 0;
+
+    .caja{
+        width: 190px;
+        height: 150px;
+        margin: 10px;
+        border: 2px solid #ffff00;
+        color: #ffffff;
+        background-color: #000000;
+        text-align: center;
+        box-shadow: -7px 7px 50px #ffff00;
+        margin-bottom: 30px;
     
+        h2{
+            color: #ffff00;
+        font-size: 18px;
+        }
+    }
 }
 
-.grid .caja{
-    width: 150px;
-    height: 150px;
-    margin: 10px;
-    border: 2px solid yellow;
-    color: white;
-    background-color: black;
-    text-align: center;
-    box-shadow: -7px 7px 50px yellow;
-    margin-bottom: 30px;
-    
-}
+
 .grid :hover{
     transform: scale(1.1);
-}
-.grid .caja h2{
-    color: yellow;
 }

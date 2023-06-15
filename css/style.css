@@ -1,11 +1,11 @@
 .portada {
   display: flex;
   justify-content: center;
-  margin: 115px;
+  margin: 80px;
 }
 
 .portada img {
-  box-shadow: -7px 7px 50px yellow;
+  box-shadow: -7px 7px 50px #ffff00;
 }
 
 .portada img:hover {
@@ -13,13 +13,17 @@
 }
 
 header {
-  background-color: black;
+  background-color: #000000;
   padding: 10px;
-  box-shadow: -38px 7px 30px yellow;
+  box-shadow: -38px 7px 30px #ffff00;
+}
+
+header nav div {
+  margin-left: 20px;
 }
 
 header nav ul li {
-  background-color: black;
+  background-color: #000000;
   justify-content: center;
   align-items: center;
   display: inline-block;
@@ -27,9 +31,11 @@ header nav ul li {
 }
 
 .titulo {
-  color: white;
+  color: #ffffff;
   text-align: center;
   text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
 }
 
 .subtitulos {
@@ -38,13 +44,13 @@ header nav ul li {
 }
 
 a {
-  color: yellow;
+  color: #ffff00;
   font-size: 30px;
   text-decoration: none;
 }
 
 a:hover {
-  background: rgba(255, 241, 89, 0.5);
+  background: rgba(255, 241, 89, 0.5019607843);
 }
 
 * {
@@ -54,7 +60,7 @@ a:hover {
 }
 
 main {
-  background-color: grey;
+  background-color: #808080;
   margin: 0 auto;
   padding: 0 48px;
   width: 100%;
@@ -62,12 +68,12 @@ main {
 }
 
 body {
-  background-color: gray;
+  background-color: #808080;
 }
 
 footer h2 {
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #ffffff;
   display: flex;
   justify-content: center;
   font-size: 30px;
@@ -75,21 +81,22 @@ footer h2 {
 }
 
 footer {
-  background-color: black;
+  background-color: #000000;
   padding: 40px;
-  position: absolute;
   bottom: 0;
   width: 100%;
-  box-shadow: -7px 7px 50px yellow;
+  box-shadow: -7px 7px 50px #ffff00;
+}
+
+.footer-index ul {
+  display: flex;
+  justify-content: space-around;
 }
 
 footer .footer-img {
   font-size: 30px;
-  color: yellow;
-  background-color: black;
-  display: flex;
-  justify-content: space-around;
-  margin-left: 150px;
+  background-color: #000000;
+  color: #000000;
 }
 
 .instagram img {
@@ -104,9 +111,10 @@ footer .footer-img {
 
 .hamburguesa-subtitulo .hambur {
   font-size: 50px;
-  color: white;
+  color: #ffffff;
   text-align: center;
   margin: 50px 0 0 0;
+  font-family: "lemon";
 }
 
 .hamburguesa-subtitulo {
@@ -119,43 +127,42 @@ footer .footer-img {
 }
 
 .armar {
-  color: white;
+  color: #ffffff;
 }
 
 .grid {
   display: grid;
   grid-template-columns: auto auto;
   width: auto;
-  background-color: gray;
   margin: 10px;
   padding: 0;
 }
-
 .grid .caja {
-  width: 150px;
+  width: 190px;
   height: 150px;
   margin: 10px;
-  border: 2px solid yellow;
-  color: white;
-  background-color: black;
+  border: 2px solid #ffff00;
+  color: #ffffff;
+  background-color: #000000;
   text-align: center;
-  box-shadow: -7px 7px 50px yellow;
+  box-shadow: -7px 7px 50px #ffff00;
   margin-bottom: 30px;
+}
+.grid .caja h2 {
+  color: #ffff00;
+  font-size: 18px;
 }
 
 .grid :hover {
   transform: scale(1.1);
 }
 
-.grid .caja h2 {
-  color: yellow;
-}
-
 .lomito .lomito-titulo {
   font-size: 50px;
-  color: white;
+  color: #ffffff;
   text-align: center;
   margin: 50px 0 0 0;
+  font-family: "lemon";
 }
 
 .lomito {
@@ -173,92 +180,85 @@ footer .footer-img {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
-  border: 2px solid yellow;
+  border: 2px solid #ffff00;
   font-size: 20px;
   width: 404px;
   height: 540px;
   margin: 0;
   padding: 0;
-  box-shadow: -7px 7px 50px yellow;
+  box-shadow: -7px 7px 50px #ffff00;
+  margin-bottom: 20px;
+}
+.grid-completo .caja1 {
+  border: 2px solid #ffff00;
+  color: #ffffff;
+  background-color: #000000;
+  text-align: center;
+  grid-column: 1/3;
+}
+.grid-completo .caja2 {
+  border: 2px solid #ffff00;
+  color: #ffffff;
+  background-color: #000000;
+  text-align: center;
+}
+.grid-completo .caja3 {
+  border: 2px solid #ffff00;
+  color: #ffffff;
+  background-color: #000000;
+  text-align: center;
+  font-size: 40px;
+}
+.grid-completo .caja4 {
+  border: 2px solid #ffff00;
+  color: #ffffff;
+  background-color: #000000;
+  text-align: center;
+  grid-column: 1/3;
 }
 
 .xl {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
-  border: 2px solid yellow;
+  border: 2px solid #ffff00;
   font-size: 20px;
   width: 404px;
   height: 540px;
   margin: 0;
   padding: 0;
-  box-shadow: -7px 7px 50px yellow;
+  box-shadow: -7px 7px 50px #ffff00;
+}
+.xl .caja5 {
+  border: 2px solid #ffff00;
+  color: #ffffff;
+  background-color: #000000;
+  text-align: center;
+  grid-column: 1/3;
+}
+.xl .caja6 {
+  border: 2px solid #ffff00;
+  color: #ffffff;
+  background-color: #000000;
+  text-align: center;
+}
+.xl .caja7 {
+  border: 2px solid #ffff00;
+  color: #ffffff;
+  background-color: #000000;
+  text-align: center;
+  font-size: 40px;
+}
+.xl .caja8 {
+  border: 2px solid #ffff00;
+  color: #ffffff;
+  background-color: #000000;
+  text-align: center;
+  grid-column: 1/3;
 }
 
 .contenedor :hover {
   transform: scale(1.1);
-}
-
-.caja1 {
-  border: 2px solid yellow;
-  color: yellow;
-  background-color: black;
-  text-align: center;
-  grid-column: 1/3;
-}
-
-.caja2 {
-  border: 2px solid yellow;
-  color: white;
-  background-color: black;
-  text-align: center;
-}
-
-.caja3 {
-  border: 2px solid yellow;
-  color: white;
-  background-color: black;
-  text-align: center;
-  font-size: 40px;
-}
-
-.caja4 {
-  border: 2px solid yellow;
-  color: white;
-  background-color: black;
-  text-align: center;
-  grid-column: 1/3;
-}
-
-.caja5 {
-  border: 2px solid yellow;
-  color: yellow;
-  background-color: black;
-  text-align: center;
-  grid-column: 1/3;
-}
-
-.caja6 {
-  border: 2px solid yellow;
-  color: white;
-  background-color: black;
-  text-align: center;
-}
-
-.caja7 {
-  border: 2px solid yellow;
-  color: white;
-  background-color: black;
-  text-align: center;
-  font-size: 40px;
-}
-
-.caja8 {
-  border: 2px solid yellow;
-  color: white;
-  background-color: black;
-  text-align: center;
-  grid-column: 1/3;
 }
 
 .lomito .contenedor .caja4 img {
@@ -273,9 +273,10 @@ footer .footer-img {
 
 .bebidas-titulo .titulo {
   font-size: 60px;
-  color: black;
+  color: #000000;
   text-align: center;
   margin: 50px 0 0 0;
+  font-family: "lemon";
 }
 
 .bebidas-titulo {
@@ -283,93 +284,89 @@ footer .footer-img {
 }
 
 .col1 {
-  border: 2px solid black;
+  border: 2px solid #000000;
   font-size: 40px;
   height: 100px;
   width: 660px;
   margin-top: 30px;
-  background-image: radial-gradient(ellipse 200px 200px, red, white);
-  color: black;
+  background-image: radial-gradient(ellipse 200px 200px, #ff0000, #ffffff);
+  color: #000000;
   text-align: center;
   margin-bottom: 25px;
 }
 
 .col2 {
-  border: 2px solid black;
+  border: 2px solid #000000;
   font-size: 40px;
   height: 100px;
   width: 660px;
   margin-top: 30px;
-  background-image: radial-gradient(ellipse 200px 200px, red, black);
-  color: white;
+  background-image: radial-gradient(ellipse 200px 200px, #ff0000, #000000);
+  color: #ffffff;
   text-align: center;
-  margin-bottom: 15px;
 }
 
 .col3 {
-  border: 2px solid black;
+  border: 2px solid #000000;
   font-size: 40px;
   height: 100px;
   width: 660px;
-  background-image: radial-gradient(ellipse 200px 200px, red, white);
-  color: black;
+  background-image: radial-gradient(ellipse 200px 200px, #ff0000, #ffffff);
+  color: #000000;
   text-align: center;
   margin-bottom: 25px;
 }
 
 .col4 {
-  border: 2px solid black;
+  border: 2px solid #000000;
   font-size: 40px;
   height: 100px;
   width: 660px;
-  background-image: radial-gradient(ellipse 200px 200px, aqua, white);
-  color: black;
+  background-image: radial-gradient(ellipse 200px 200px, #00ffff, #ffffff);
+  color: #000000;
   text-align: center;
-  margin-bottom: 5px;
 }
 
 .col5 {
-  border: 2px solid black;
+  border: 2px solid #000000;
   font-size: 40px;
   height: 100px;
   width: 660px;
-  background-image: radial-gradient(ellipse 200px 200px, #ff6a00, black);
-  color: white;
+  background-image: radial-gradient(ellipse 200px 200px, #ff6a00, #000000);
+  color: #ffffff;
   text-align: center;
   margin-bottom: 25px;
 }
 
 .col6 {
-  border: 2px solid black;
+  border: 2px solid #000000;
   font-size: 40px;
   height: 100px;
   width: 660px;
-  background-image: radial-gradient(ellipse 200px 200px, green, yellow);
-  color: black;
+  background-image: radial-gradient(ellipse 200px 200px, #008000, #ffff00);
+  color: #000000;
   text-align: center;
-  margin-bottom: 5px;
 }
 
 .col7 {
-  border: 2px solid black;
+  border: 2px solid #000000;
   font-size: 40px;
   height: 100px;
   width: 660px;
-  background-image: radial-gradient(ellipse 200px 200px, gold, black);
-  color: white;
+  background-image: radial-gradient(ellipse 200px 200px, #ffd700, #000000);
+  color: #ffffff;
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 .col8 {
-  border: 2px solid black;
+  border: 2px solid #000000;
   font-size: 40px;
   height: 100px;
   width: 660px;
-  background-image: radial-gradient(ellipse 200px 200px, red, green);
-  color: black;
+  background-image: radial-gradient(ellipse 200px 200px, #ff0000, #008000);
+  color: #000000;
   text-align: center;
-  margin-bottom: 5px;
 }
 
 .col1:hover {
@@ -406,16 +403,17 @@ footer .footer-img {
 
 .pedido h2 {
   text-align: center;
-  color: white;
+  color: #ffffff;
   margin: 100px 0 30px 0;
   font-size: 40px;
+  font-family: "lemon";
 }
 
 form {
   margin: 0 auto;
   width: 400px;
   padding: 1em;
-  border: 1px solid yellow;
+  border: 1px solid #ffff00;
   border-radius: 1em;
 }
 
@@ -435,10 +433,15 @@ label {
   text-align: right;
 }
 
+.descripcion {
+  max-width: 30rem;
+}
+
 .descripcion h2 {
   font-size: 30px;
-  margin: 0 0 0 0;
-  color: yellow;
+  margin: 0;
+  color: #ffff00;
+  font-family: "lemon";
 }
 
 .descripcion ul li {
@@ -446,17 +449,27 @@ label {
 }
 
 .card-header {
-  color: white;
+  color: #ffffff;
   font-size: 30px;
+}
+
+.card {
+  margin-bottom: 50px;
 }
 
 /* index */
 @media (max-width: 600px) {
   .portada img {
     width: 320px;
+    margin: 70%;
   }
   header .titulo {
     font-size: 20px;
+  }
+  header .subtitulos div a {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
   }
   header .subtitulos ul li a {
     font-size: 15px;
@@ -469,17 +482,13 @@ label {
   }
   footer {
     padding: 30px;
-    position: relative;
-  }
-  .footer-index {
-    position: absolute;
   }
   .instagram {
     text-align: left;
     margin: 5px;
   }
-  footer .footer-img ul .telefono {
-    font-size: 15px;
+  footer .footer-img ul .telefono a {
+    font-size: 20px;
     margin: 0;
   }
   footer .footer-img ul .telefono img {
@@ -491,7 +500,6 @@ label {
   footer .footer-img ul .instagram a {
     font-size: 20px;
     margin: 0;
-    padding: 0;
   }
   footer .footer-img ul .telefono {
     width: 140px;
@@ -516,15 +524,24 @@ label {
 @media (max-width: 600px) {
   .elegir {
     display: block;
-    width: 350px;
     text-align: center;
     margin: 0;
   }
   .hamburguesa-subtitulo .hambur {
     text-align: center;
+    font-size: 28px;
   }
   .grid {
     margin: 0;
+  }
+  .grid .caja h2 {
+    color: #ffff00;
+    font-size: 14px;
+  }
+  .grid .caja {
+    width: 100px;
+    height: 120px;
+    font-size: 10px;
   }
 }
 /* lomitos */
@@ -538,7 +555,7 @@ label {
     width: 300px;
     text-align: center;
     font-size: 15px;
-    margin: 0;
+    margin-bottom: 30px;
   }
   .caja1 {
     width: 300px;
@@ -556,7 +573,7 @@ label {
     width: 300px;
     text-align: center;
     font-size: 15px;
-    margin: 0;
+    margin-bottom: 30px;
   }
   .caja5 {
     width: 300px;
@@ -612,10 +629,14 @@ label {
     font-size: 20px;
     margin: 40px 0 0 0;
   }
-  .pedido form {
-    width: 350px;
-    height: 200px;
+  form {
+    width: 250px;
+    height: 280px;
   }
+}
+@font-face {
+  font-family: "lemon";
+  src: url(../assets/Letras/LEMONMILK-Regular.otf);
 }
 
 /*# sourceMappingURL=style.css.map */
