@@ -460,8 +460,9 @@ label {
 /* index */
 @media (max-width: 600px) {
   .portada img {
-    width: 320px;
+    width: 300px;
     margin: 70%;
+    margin-bottom: 100px;
   }
   header .titulo {
     font-size: 20px;
@@ -548,44 +549,44 @@ label {
 @media (max-width: 600px) {
   .contenedor {
     display: block;
-    width: 300px;
+    width: 250px;
     text-align: center;
   }
   .grid-completo {
-    width: 300px;
+    width: 250px;
     text-align: center;
     font-size: 15px;
     margin-bottom: 30px;
   }
   .caja1 {
-    width: 300px;
+    width: 250px;
   }
   .caja2 {
-    width: 150px;
+    width: 125px;
   }
   .caja3 {
-    width: 150px;
+    width: 125px;
   }
   .caja4 {
-    width: 300px;
+    width: 250px;
   }
   .xl {
-    width: 300px;
+    width: 250px;
     text-align: center;
     font-size: 15px;
     margin-bottom: 30px;
   }
   .caja5 {
-    width: 300px;
+    width: 250px;
   }
   .caja6 {
-    width: 150px;
+    width: 125px;
   }
   .caja7 {
-    width: 150px;
+    width: 125px;
   }
   .caja8 {
-    width: 300px;
+    width: 250px;
   }
 }
 /*bebidas */
